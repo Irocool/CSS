@@ -1,0 +1,188 @@
+    
+h1,h5 {
+	text-align: center;
+	font-style: bold;
+}
+.menu li{
+    
+    font-style: italic;
+    font-size: 20px;
+    list-style-type: none;
+}
+.menu li a {
+    color: #000080;
+}
+.img {outline:1px solid black;
+    width: 80px; height: 100px; 
+}
+.img:hover{
+	outline: none;
+}
+.menu li :hover{
+    color: darkred;
+
+}
+.header {
+    
+    background-color: #87CEEB;
+    width: 100%;
+    height: 100px;
+	float: left;
+    text-align: left;
+    
+}
+.img_menu {
+   margin-left: 50px;
+   float: left;
+   padding: 0 20px 20px 0;
+}
+.menu_item{
+	width: 100px;
+	height: 100px;
+	padding-top: 20px;
+	float: right;
+}
+.content {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+	float: left;
+    
+    /*background-image: url(img/variety2.jpg);
+    background: no-repeat url("../img/variety2.jpg");
+    background-size: cover;
+	background-position: bottom right, center center, top left;*/
+    
+}
+.content p{
+     text-align: center;
+}
+
+.footer{
+    background-color: #00BFFF;
+    width: 100%;
+    float: right;
+    height: 70px;
+    text-align: right;
+    color: #000080;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 15px;
+	padding-right: 50px;
+}
+.prodactH {
+	color: black;
+	font-weight: 400;
+	font-size: 18px;
+	background: #eaeaea;
+    font-style: bold;
+}
+.Discription {
+	color: #707070;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	font-style: bold;
+}
+.Full{
+	color: #484343;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: left;
+}
+.Brief{
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+	
+}
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-collapse: collapse;
+text-align: center;
+}
+th, td:first-child {
+background: #eaeaea;
+color: black;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: whitesmoke;
+}
+td {
+background: #D8E6F3;
+}
+th:first-child, td:first-child {
+font-size: 16px;
+text-align: left;
+}
+.contact{
+	 
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: left;
+}
+.contact input[type="text"],textarea {
+    font-size: 16px;
+	background-color: #ffe;
+    color: #930;
+}
+.contact input[type="email"],textarea {
+    background-color: #ffe;
+    color: #930;
+	text-transform: capitalize;
+}
+.contact input[type="email"]:focus{
+    background-color: yellow;
+    color: black;
+	
+}
+
+.Full:first-letter{
+    font-size: 30px;
+    color: darkblue
+}
+
+.test{
+	width: 150px;
+    height: 150px;
+	
+	float: left;
+	padding-left: 40px;
+	padding-top: 30px;
+}
+.Buy{
+	width: 100%;
+    height: 150px;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+.ButtonBuy{
+	width: 100%;
+	height: 60px;
+	margin-bottom : 20px;
+}
+.ButtonBuy a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #F137A6 inset, 0 0 0 0 #F137A6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+}
+.ButtonBuy a:hover {
+  box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+  color: #F137A6;
+}
